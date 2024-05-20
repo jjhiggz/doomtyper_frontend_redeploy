@@ -47,7 +47,7 @@
 
 <script>
 const localUrl = "http://localhost:3000";
-const productionUrl = "https://doomtyper-elysia.fly.dev/";
+const productionUrl = "https://doomtyper-elysia.fly.dev";
 
 const url = process.env.NODE_ENV === "production" ? productionUrl : localUrl;
 
