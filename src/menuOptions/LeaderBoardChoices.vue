@@ -27,7 +27,7 @@ import LeaderBoard from "@/menuOptions/LeaderBoard.vue";
 import { orderBy } from "lodash";
 
 const localUrl = "http://localhost:3000";
-const productionUrl = "tbd";
+const productionUrl = "https://doomtyper-elysia.fly.dev/";
 
 const url = process.env.NODE_ENV === "production" ? productionUrl : localUrl;
 
