@@ -347,7 +347,6 @@ export default {
 </script>
 
 <style>
-@import "../node_modules/nes.css/css/nes.css";
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 /* Press Start 2P */
 #app {

@@ -1,6 +1,6 @@
 import Vue from "vue";
 import App from "./App.vue";
-import "nes.css/css/nes.min.css";
+// import "nes.css/css/nes.min.css";
 
 // import { Sampler } from 'tone'
 

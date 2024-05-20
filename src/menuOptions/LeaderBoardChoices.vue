@@ -23,7 +23,7 @@
 </template>
 
 <script>
-import LeaderBoard from "./LeaderBoard";
+import LeaderBoard from "@/menuOptions/LeaderBoard.vue";
 import { orderBy } from "lodash";
 
 const localUrl = "http://localhost:3000";
