@@ -124,7 +124,7 @@ export default {
           body: raw,
           // redirect: "follow",
         };
-        fetch(url, requestOptions)
+        fetch(url + "/users", requestOptions)
           .then((response) => {
             if (!response.ok) {
               throw Error(response.statusText);
